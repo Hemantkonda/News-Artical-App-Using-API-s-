@@ -31,7 +31,7 @@ export default function Main() {
       <div className="container">
         <div className="row">
           {news.map((article) => (
-            <div className="col-lg-4 mb-5" key={article.id}>
+            <div className="col-lg-4 col-md-6 mb-5" key={article.id}>
               <div className="card">
                 <img
                   className="card-img-top"

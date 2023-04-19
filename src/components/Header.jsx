@@ -7,7 +7,7 @@ export default function Header() {
       <nav className="navbar">
         <div className="right-side">
           <div className="log">
-            <h2>MyNews</h2>
+            <h2>News-Articals</h2>
           </div>
         </div>
         <div className="left-side">

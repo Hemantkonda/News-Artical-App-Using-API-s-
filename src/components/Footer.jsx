@@ -7,17 +7,12 @@ export default function Footer(){
         <div class="footer-primary">
           <div class="container">
             <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-3 p-0">
+              <div class="col-sm-12 col-md-6 col-lg-3 p-0">
                 <div class="footer-widget-contact">
                   <div className="log">
-                    <h2>MyNews</h2>
+                    <h2>News-Articals</h2>
                   </div>
-                  <p class="white">
-                    Our goal is to deliver quality of care in a courteous,
-                    respectful, and compassionate manner. We hope you will allow
-                    us to care for you and strive to be the first and best
-                    choice for your family healthcare.
-                  </p>
+                  <p class="white">Hello Guys!</p>
                   <Link
                     to="/contact"
                     class="btn btn__primary btn__primary-style2 btn__link"
@@ -33,16 +28,24 @@ export default function Footer(){
                   <nav>
                     <ul class="list-unstyled">
                       <li>
-                        <a href="#" className="white">Latest</a>
+                        <a href="#" className="white">
+                          Latest
+                        </a>
                       </li>
                       <li>
-                        <a href="#" className="white">Old</a>
+                        <a href="#" className="white">
+                          Old
+                        </a>
                       </li>
                       <li>
-                        <a href="#" className="white">Tranding</a>
+                        <a href="#" className="white">
+                          Tranding
+                        </a>
                       </li>
                       <li>
-                        <a href="#" className="white">Analysis</a>
+                        <a href="#" className="white">
+                          Analysis
+                        </a>
                       </li>
                     </ul>
                   </nav>
@@ -54,10 +57,14 @@ export default function Footer(){
                   <nav>
                     <ul class="list-unstyled">
                       <li>
-                        <Link to="/about" className="white">About Us</Link>
+                        <Link to="/about" className="white">
+                          About Us
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/contact" className="white">Contact</Link>
+                        <Link to="/contact" className="white">
+                          Contact
+                        </Link>
                       </li>
                     </ul>
                   </nav>
@@ -69,7 +76,7 @@ export default function Footer(){
                     Quick Contacts
                   </h6>
                   <ul class="contact-list list-unstyled">
-                    <li className="white"> 
+                    <li className="white">
                       If you have any questions or need help, feel free to
                       contact with our team.
                     </li>
@@ -79,7 +86,7 @@ export default function Footer(){
                       </a>
                     </li>
                     <li class="color-body white">
-                    VarapGoan, Kalyan-421301, Thane, Maharashtra, India
+                      VarapGoan, Kalyan-421301, Thane, Maharashtra, India
                     </li>
                   </ul>
                   <div class="d-flex align-items-center">
@@ -116,26 +123,11 @@ export default function Footer(){
         <div class="footer-secondary">
           <div class="container">
             <div class="row align-items-center">
-              <div class="col-sm-12 col-md-6 col-lg-6 white">
+              <div class="col-sm-12 col-md-12 col-lg-6 white">
                 <span class="fz-14">&copy; All Rights Reserved.</span>{" "}
                 <span class="creator">
                   Made With<span class="pink">❤ </span> By Hemant Konda
                 </span>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-6">
-                <nav>
-                  <ul class="list-unstyled footer__copyright-links d-flex flex-wrap justify-content-end mb-0">
-                    <li>
-                      <a href="#">Terms & Conditions</a>
-                    </li>
-                    <li>
-                      <a href="#">Privacy Policy</a>
-                    </li>
-                    <li>
-                      <a href="#">Cookies</a>
-                    </li>
-                  </ul>
-                </nav>
               </div>
             </div>
           </div>
