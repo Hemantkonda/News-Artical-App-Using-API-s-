@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer(){
     return (
@@ -17,13 +18,13 @@ export default function Footer(){
                     us to care for you and strive to be the first and best
                     choice for your family healthcare.
                   </p>
-                  <a
-                    href="#"
+                  <Link
+                    to="/contact"
                     class="btn btn__primary btn__primary-style2 btn__link"
                   >
                     <span className="white">Make Appointment</span>{" "}
                     <i class="icon-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div class="col-sm-6 col-md-6 col-lg-2 offset-lg-1">
@@ -53,10 +54,10 @@ export default function Footer(){
                   <nav>
                     <ul class="list-unstyled">
                       <li>
-                        <a href="about-us.html" className="white">About Us</a>
+                        <Link to="/about" className="white">About Us</Link>
                       </li>
                       <li>
-                        <a href="contact-us.html" className="white">Contact</a>
+                        <Link to="/contact" className="white">Contact</Link>
                       </li>
                     </ul>
                   </nav>
@@ -78,18 +79,17 @@ export default function Footer(){
                       </a>
                     </li>
                     <li class="color-body white">
-                      plot no. 26, Dosti Heritage, sector no 4, Karanjade,
-                      Panvel, Navi Mumbai, Maharashtra 410206
+                    VarapGoan, Kalyan-421301, Thane, Maharashtra, India
                     </li>
                   </ul>
                   <div class="d-flex align-items-center">
-                    <a
-                      href="contact-us.html"
+                    <Link
+                      to="/contact"
                       class="btn btn__primary btn__link mr-30"
                     >
                       <i class="icon-arrow-right"></i>{" "}
                       <span className="white">Get Directions</span>
-                    </a>
+                    </Link>
                     <ul class="social-icons list-unstyled mb-0">
                       <li>
                         <a href="#">
@@ -119,7 +119,7 @@ export default function Footer(){
               <div class="col-sm-12 col-md-6 col-lg-6 white">
                 <span class="fz-14">&copy; All Rights Reserved.</span>{" "}
                 <span class="creator">
-                  Made With<span class="pink">❤ </span> In Nexmoves
+                  Made With<span class="pink">❤ </span> By Hemant Konda
                 </span>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-6">

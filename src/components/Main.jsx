@@ -5,9 +5,25 @@ export default function Main() {
   const [news, setNews] = useState([]);
 
   useEffect(() => {
-    axios.get('https://techcrunch.com/wp-json/wp/v2/posts?per_page=20&context=embed')
-      .then(response => setNews(response.data))
-      .catch(error => console.log(error));
+    axios.get("https://techcrunch.com/wp-json/wp/v2/posts?per_page=20&context=embed")
+      .then((response) => {
+        // Remove <p></p> tags from the API response
+        const newsWithoutPTags = response.data.map((article) => {
+          return {
+            ...article,
+            title: {
+              ...article.title,
+              rendered: article.title.rendered.replace(/<\/?p>/g, ""),
+            },
+            excerpt: {
+              ...article.excerpt,
+              rendered: article.excerpt.rendered.replace(/<\/?p>/g, ""),
+            },
+          };
+        });
+        setNews(newsWithoutPTags);
+      })
+      .catch((error) => console.log(error));
   }, []);
 
   return (
