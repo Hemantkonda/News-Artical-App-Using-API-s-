@@ -3,30 +3,30 @@ import { Link } from "react-router-dom";
 
 export default function Footer(){
     return (
-      <footer class="footer">
-        <div class="footer-primary">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12 col-md-6 col-lg-3 p-0">
-                <div class="footer-widget-contact">
+      <footer className="footer">
+        <div className="footer-primary">
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12 col-md-6 col-lg-3 p-0">
+                <div className="footer-widget-contact">
                   <div className="log">
                     <h2>News-Articals</h2>
                   </div>
-                  <p class="white">Hello Guys!</p>
+                  <p className="white">Hello Guys!</p>
                   <Link
                     to="/contact"
-                    class="btn btn__primary btn__primary-style2 btn__link"
+                    className="btn btn__primary btn__primary-style2 btn__link"
                   >
                     <span className="white">Make Appointment</span>{" "}
-                    <i class="icon-arrow-right"></i>
+                    <i className="icon-arrow-right"></i>
                   </Link>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-6 col-lg-2 offset-lg-1">
-                <div class="footer-widget-nav">
-                  <h6 class="footer-widget__title white">Departments</h6>
+              <div className="col-sm-6 col-md-6 col-lg-2 offset-lg-1">
+                <div className="footer-widget-nav">
+                  <h6 className="footer-widget__title white">Departments</h6>
                   <nav>
-                    <ul class="list-unstyled">
+                    <ul className="list-unstyled">
                       <li>
                         <a href="#" className="white">
                           Latest
@@ -51,11 +51,11 @@ export default function Footer(){
                   </nav>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-6 col-lg-2">
-                <div class="footer-widget-nav">
-                  <h6 class="footer-widget__title white">Links</h6>
+              <div className="col-sm-6 col-md-6 col-lg-2">
+                <div className="footer-widget-nav">
+                  <h6 className="footer-widget__title white">Links</h6>
                   <nav>
-                    <ul class="list-unstyled">
+                    <ul className="list-unstyled">
                       <li>
                         <Link to="/about" className="white">
                           About Us
@@ -70,47 +70,47 @@ export default function Footer(){
                   </nav>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="footer-widget-nav">
-                  <h6 class="footer-widget__title color-heading white">
+              <div className="col-sm-12 col-md-6 col-lg-4">
+                <div className="footer-widget-nav">
+                  <h6 className="footer-widget__title color-heading white">
                     Quick Contacts
                   </h6>
-                  <ul class="contact-list list-unstyled">
+                  <ul className="contact-list list-unstyled">
                     <li className="white">
                       If you have any questions or need help, feel free to
                       contact with our team.
                     </li>
                     <li className="white">
-                      <a href="tel:074004 60378" class="phone__number">
-                        <i class="icon-phone"></i> <span>074004 60378</span>
+                      <a href="tel:074004 60378" className="phone__number">
+                        <i className="icon-phone"></i> <span>074004 60378</span>
                       </a>
                     </li>
-                    <li class="color-body white">
+                    <li className="color-body white">
                       VarapGoan, Kalyan-421301, Thane, Maharashtra, India
                     </li>
                   </ul>
-                  <div class="d-flex align-items-center">
+                  <div className="d-flex align-items-center">
                     <Link
                       to="/contact"
-                      class="btn btn__primary btn__link mr-30"
+                      className="btn btn__primary btn__link mr-30"
                     >
-                      <i class="icon-arrow-right"></i>{" "}
+                      <i className="icon-arrow-right"></i>{" "}
                       <span className="white">Get Directions</span>
                     </Link>
-                    <ul class="social-icons list-unstyled mb-0">
+                    <ul className="social-icons list-unstyled mb-0">
                       <li>
                         <a href="#">
-                          <i class="fab fa-facebook-f"></i>
+                          <i className="fab fa-facebook-f"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fab fa-instagram"></i>
+                          <i className="fab fa-instagram"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fab fa-twitter"></i>
+                          <i className="fab fa-twitter"></i>
                         </a>
                       </li>
                     </ul>
@@ -120,13 +120,13 @@ export default function Footer(){
             </div>
           </div>
         </div>
-        <div class="footer-secondary">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-sm-12 col-md-12 col-lg-6 white">
-                <span class="fz-14">&copy; All Rights Reserved.</span>{" "}
-                <span class="creator">
-                  Made With<span class="pink">❤ </span> By Hemant Konda
+        <div className="footer-secondary">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-sm-12 col-md-12 col-lg-6 white">
+                <span className="fz-14">&copy; All Rights Reserved.</span>{" "}
+                <span className="creator">
+                  Made With<span className="pink">❤ </span> By Hemant Konda
                 </span>
               </div>
             </div>
