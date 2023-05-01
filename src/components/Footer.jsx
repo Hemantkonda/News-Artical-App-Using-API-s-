@@ -120,13 +120,13 @@ export default function Footer(){
             </div>
           </div>
         </div>
-        <div className="footer-secondary">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-sm-12 col-md-12 col-lg-6 white">
-                <span className="fz-14">&copy; All Rights Reserved.</span>{" "}
-                <span className="creator">
-                  Made With<span className="pink">❤ </span> By Hemant Konda
+        <div class="footer-secondary">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-sm-12 col-md-12 col-lg-6 white">
+                <span class="fz-14">&copy; All Rights Reserved.</span>{" "}
+                <span class="creator">
+                  Made With<span class="pink">❤ </span> By Hemant Konda
                 </span>
               </div>
             </div>
