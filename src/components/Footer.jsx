@@ -15,8 +15,7 @@ export default function Footer(){
                   <p class="white">Hello Guys!</p>
                   <Link
                     to="/contact"
-                    class="btn btn__primary btn__primary-style2 btn__link"
-                  >
+                    class="btn btn__primary btn__primary-style2 btn__link">
                     <span className="white">Make Appointment</span>{" "}
                     <i class="icon-arrow-right"></i>
                   </Link>
@@ -25,6 +24,30 @@ export default function Footer(){
               <div class="col-sm-6 col-md-6 col-lg-2 offset-lg-1">
                 <div class="footer-widget-nav">
                   <h6 class="footer-widget__title white">Departments</h6>
+                  <nav>
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#" className="white">
+                          Latest
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="white">
+                          Old
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="white">
+                          Tranding
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="white">
+                          Analysis
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
                 </div>
               </div>
               <div class="col-sm-6 col-md-6 col-lg-2">
