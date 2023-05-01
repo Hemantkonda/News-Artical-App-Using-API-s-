@@ -25,30 +25,6 @@ export default function Footer(){
               <div class="col-sm-6 col-md-6 col-lg-2 offset-lg-1">
                 <div class="footer-widget-nav">
                   <h6 class="footer-widget__title white">Departments</h6>
-                  <nav>
-                    <ul class="list-unstyled">
-                      <li>
-                        <a href="#" className="white">
-                          Latest
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" className="white">
-                          Old
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" className="white">
-                          Tranding
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" className="white">
-                          Analysis
-                        </a>
-                      </li>
-                    </ul>
-                  </nav>
                 </div>
               </div>
               <div class="col-sm-6 col-md-6 col-lg-2">
@@ -126,7 +102,7 @@ export default function Footer(){
               <div class="col-sm-12 col-md-12 col-lg-6 white">
                 <span class="fz-14">&copy; All Rights Reserved.</span>{" "}
                 <span class="creator">
-                  Made With<span class="pink">❤ </span> By Hemant Konda
+                  Made With<span class="pink"> ❤ </span> By Hemant Konda
                 </span>
               </div>
             </div>
